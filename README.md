@@ -1,6 +1,6 @@
 # 📚 AI Semantic Book Recommender Dashboard
- **AI-powered book recommender system** is an interactive web-based application which allows you to perform semantic books search, category classification, and sentiment analysis. 
-- This project is built with Python and leverages modern NLP techniques for recommendation, classification, and sentiment analysis.
+ **AI-powered book recommender system** is an interactive web-based application that enables semantic book search, category classification, and sentiment analysis.<br>
+This project is built with Python and leverages modern NLP techniques for recommendation, classification, and sentiment analysis.
 # 🚀 Project Overview
 
   # Key Components:
@@ -10,14 +10,14 @@
   - **.venv_Dashboard/** and **.venv_Notebooks/**: Separate Python virtual environments for Dashboard and notebooks.
  
   # Key Features:
-  1. **Semantic Search**  
+  **1.** **Semantic Search**  
    - Search books using vector similarity on book descriptions.
    - Powered by **ChromaDB** and **Sentence Transformers**.
 
-  2. **Fiction / Non-Fiction Classifier**  
+  **2.** **Fiction / Non-Fiction Classifier**  
    - Classifies book descriptions into categories(Fiction, Non-fiction) using a **Zero-Shot Classification pipeline**.
 
-  3. **Sentiment Analysis**  
+  **3.** **Sentiment Analysis**  
    - Analyze sentiment(Positive, Negative, Neutral) of text, reviews, and summaries etc. using **DistilBERT sentiment model**.
 
   4. **Interactive Dashboard**  
@@ -52,31 +52,31 @@
     pip install -r requirements_dashboard.txt
 
 #  ♻ Usage
-  1. **Run Notebooks:**
+  **1.** **Run Notebooks:**
    - Open Jupyter:
    - .venv_Notebooks\Scripts\activate
-   - Open jupyter notebook.
+   - Open Jupyter notebook.
    - Select the kernel: .venv_Notebooks
    - Run all notebooks (data-explore.ipynb, vector-search.ipynb, text-classification.ipynb, sentiment-analysis.ipynb)
-  2. **Launch Dashboard:**
+   **2.** **Launch Dashboard:**
    - .venv_Dashboard\Scripts\activate   # Windows
    - python Dashboard.py
-   - Inbrower=true will automatically open Dashboard in Browser.
+   - Inbrower=true will automatically open the Dashboard in the Browser.
    - Or use share=True in demo.launch() to get a temporary public URL.
 
 # 📂 Folder Structure
 book-recommender/
-├── Dashboard.py
-├── chroma_db/
-├── Notebooks/
-├── .venv_Dashboard/
-├── .venv_Notebooks/
-└── .gradio/
-├── requirements_Dashboard.txt
-├── requirements_Notebooks.txt
-└── .gradio/
-├── README.md
-├── .gitignore
+-├── Dashboard.py
+-├── chroma_db/
+-├── Notebooks/
+-├── .venv_Dashboard/
+-├── .venv_Notebooks/
+-└── .gradio/
+-├── requirements_Dashboard.txt
+-├── requirements_Notebooks.txt
+-└── .gradio/
+-├── README.md
+-├── .gitignore
 
 # 📂 Notebooks
 All exploration and preprocessing notebooks are in the Notebooks/ folder:
@@ -100,5 +100,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 # 👨‍💻 Author
 Eman Khalid – Python & AI Enthusiast
-LinkedIn: https://linkedin.com/in/eman-khalid001
+- LinkedIn: https://linkedin.com/in/eman-khalid001
 

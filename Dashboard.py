@@ -1,3 +1,4 @@
+# Import required libraries
 import gradio as gr
 import pandas as pd
 from chromadb import PersistentClient
@@ -27,6 +28,8 @@ sentiment_analyzer = pipeline(
 # Load dataset
 books = pd.read_csv("./Notebooks/books_classified.csv")
 
+
+# Function to search books
 def search_books(query, n=5):
     """Semantic book search using ChromaDB"""
     results = collection.query(
@@ -57,6 +60,7 @@ def search_books(query, n=5):
 
     return output
  
+# Function to classify text
 def classify_text(text):
     """Classify text into Fiction / Non-fiction"""
     labels = ["Fiction", "Non-fiction"]
@@ -66,6 +70,7 @@ def classify_text(text):
         "Confidence": round(result["scores"][0], 3)
     }
 
+# Function to analyze sentiment
 def sentiment(text):
     """Sentiment analysis (Positive/ Negative/ Neutral)"""
     result = sentiment_analyzer(text)[0]
@@ -74,8 +79,6 @@ def sentiment(text):
         "Confidence": round(result["score"], 3)
     }
 
-# Gradio UI Layout
- 
 # Gradio UI Layout
  
 theme = gr.themes.Default(

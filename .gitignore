@@ -1,0 +1,9 @@
+# .gitignore
+
+.venv_Dashboard/
+.venv_Notebooks/
+__pycache__/
+.ipynb_checkpoints/
+.gradio/
+chroma_db/
+.idea/

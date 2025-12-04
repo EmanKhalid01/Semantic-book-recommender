@@ -1,0 +1,10 @@
+# Dashboard Environment Requirements
+
+chromadb==1.3.5
+numpy==2.3.5
+pandas==2.3.3
+torch==2.9.1
+transformers==4.57.3
+sentence-transformers==5.1.2
+gradio==6.0.2
+✅ Note: HuggingFace Hub will be installed automatically with transformers.

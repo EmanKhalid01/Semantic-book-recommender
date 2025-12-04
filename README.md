@@ -37,28 +37,28 @@ This project is built with Python and leverages modern NLP techniques for recomm
 # 🛠 Installation
 
   **1.** **Clone this repo:** <br>
-     https://github.com/EmanKhalid01/Semantic-book-recommender.git
+        https://github.com/EmanKhalid01/Semantic-book-recommender.git <br>
   **2.** **Create virtual Environments:** <br>
-    - For notebooks <br>
-       python -m venv .venv_Notebooks <br>
-    - For Dashboard <br>
-       python -m venv .venv_Dashboard
+    - **For notebooks** <br>
+         python -m venv .venv_Notebooks <br>
+    - **For Dashboard** <br>
+         python -m venv .venv_Dashboard <br>
   **3.** **Activate environment & install dependencies:** <br>
-    - Notebooks <br>
-      .venv_Notebooks\Scripts\activate <br>
-      pip install -r requirements_notebooks.txt <br>
-    - Dashboard <br>
-      .venv_Dashboard\Scripts\activate  <br>
-      pip install -r requirements_dashboard.txt
+    - **Notebooks** <br>
+        .venv_Notebooks\Scripts\activate <br>
+        pip install -r requirements_notebooks.txt <br>
+    - **Dashboard** <br>
+        .venv_Dashboard\Scripts\activate  <br>
+        pip install -r requirements_dashboard.txt
 
 #  ♻ Usage
-  **1.** **Run Notebooks:**
+   **1.** **Run Notebooks:**
    - Open Jupyter:
    - .venv_Notebooks\Scripts\activate
    - Open Jupyter notebook.
    - Select the kernel: .venv_Notebooks
    - Run all notebooks (data-explore.ipynb, vector-search.ipynb, text-classification.ipynb, sentiment-analysis.ipynb) <br>
-  **2.** **Launch Dashboard:**
+   **2.** **Launch Dashboard:**
    - .venv_Dashboard\Scripts\activate     
    - python Dashboard.py
    - Inbrower=true will automatically open the Dashboard in the Browser.
@@ -91,9 +91,9 @@ All exploration and preprocessing notebooks are in the Notebooks/ folder:
 - Use separate environments to avoid dependency conflicts.
 
 # 📸 Dashboard Preview
-- Images/Dashboard.png
-- Images/Dashboard_1.png
-- Images/Dashboard_2.png
+- ![Dashboard Screenshot](Images/Dashboard.png)
+- ![Dashboard Screenshot](Images/Dashboard_1.png)
+- ![Dashboard Screenshot](Images/Dashboard_2.png)
 
 # ⚖️ License
 This project is licensed under the MIT License. See the LICENSE file for details.

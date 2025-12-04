@@ -10,17 +10,17 @@ This project is built with Python and leverages modern NLP techniques for recomm
   - **.venv_Dashboard/** and **.venv_Notebooks/**: Separate Python virtual environments for Dashboard and notebooks.
  
   # Key Features:
-  **1.** **Semantic Search**  
+   **1.** **Semantic Search**  
    - Search books using vector similarity on book descriptions.
    - Powered by **ChromaDB** and **Sentence Transformers**.
 
-  **2.** **Fiction / Non-Fiction Classifier**  
+   **2.** **Fiction / Non-Fiction Classifier**  
    - Classifies book descriptions into categories(Fiction, Non-fiction) using a **Zero-Shot Classification pipeline**.
 
-  **3.** **Sentiment Analysis**  
+   **3.** **Sentiment Analysis**  
    - Analyze sentiment(Positive, Negative, Neutral) of text, reviews, and summaries etc. using **DistilBERT sentiment model**.
 
-  4. **Interactive Dashboard**  
+   **4.** **Interactive Dashboard**  
    - Built with **Gradio**.  
    - Clean, modern UI with HEX color theme.  
    - Supports search, category prediction, and sentiment analysis in one interface.
@@ -36,20 +36,20 @@ This project is built with Python and leverages modern NLP techniques for recomm
 
 # 🛠 Installation
 
-  1. **Clone this repo:**
-    https://github.com/EmanKhalid01/Semantic-book-recommender.git
-  2. **Create virtual Environments:**
-    - For notebooks
-    python -m venv .venv_Notebooks
-    - For Dashboard
-    python -m venv .venv_Dashboard
-  3. **Activate environment & install dependencies:**
-    - Notebooks
-    .venv_Notebooks\Scripts\activate      # Windows
-    pip install -r requirements_notebooks.txt
-    - Dashboard
-    .venv_Dashboard\Scripts\activate      # Windows
-    pip install -r requirements_dashboard.txt
+  **1.** **Clone this repo:** <br>
+     https://github.com/EmanKhalid01/Semantic-book-recommender.git
+  **2.** **Create virtual Environments:** <br>
+    - For notebooks <br>
+       python -m venv .venv_Notebooks <br>
+    - For Dashboard <br>
+       python -m venv .venv_Dashboard
+  **3.** **Activate environment & install dependencies:** <br>
+    - Notebooks <br>
+      .venv_Notebooks\Scripts\activate <br>
+      pip install -r requirements_notebooks.txt <br>
+    - Dashboard <br>
+      .venv_Dashboard\Scripts\activate  <br>
+      pip install -r requirements_dashboard.txt
 
 #  ♻ Usage
   **1.** **Run Notebooks:**
@@ -57,26 +57,25 @@ This project is built with Python and leverages modern NLP techniques for recomm
    - .venv_Notebooks\Scripts\activate
    - Open Jupyter notebook.
    - Select the kernel: .venv_Notebooks
-   - Run all notebooks (data-explore.ipynb, vector-search.ipynb, text-classification.ipynb, sentiment-analysis.ipynb)
-   **2.** **Launch Dashboard:**
-   - .venv_Dashboard\Scripts\activate   # Windows
+   - Run all notebooks (data-explore.ipynb, vector-search.ipynb, text-classification.ipynb, sentiment-analysis.ipynb) <br>
+  **2.** **Launch Dashboard:**
+   - .venv_Dashboard\Scripts\activate     
    - python Dashboard.py
    - Inbrower=true will automatically open the Dashboard in the Browser.
    - Or use share=True in demo.launch() to get a temporary public URL.
 
 # 📂 Folder Structure
-book-recommender/
--├── Dashboard.py
--├── chroma_db/
--├── Notebooks/
--├── .venv_Dashboard/
--├── .venv_Notebooks/
--└── .gradio/
--├── requirements_Dashboard.txt
--├── requirements_Notebooks.txt
--└── .gradio/
--├── README.md
--├── .gitignore
+ book-recommender/
+- ├── Dashboard.py
+- ├── chroma_db/
+- ├── Notebooks/
+- ├── .venv_Dashboard/
+- ├── .venv_Notebooks/
+- └── .gradio/
+- ├── requirements_Dashboard.txt
+- ├── requirements_Notebooks.txt
+- ├── README.md
+- ├── .gitignore
 
 # 📂 Notebooks
 All exploration and preprocessing notebooks are in the Notebooks/ folder:
@@ -91,9 +90,10 @@ All exploration and preprocessing notebooks are in the Notebooks/ folder:
 - ChromaDB stores vectors in chroma_db/.
 - Use separate environments to avoid dependency conflicts.
 
-# 🔗 References
-
-
+# 📸 Dashboard Preview
+- Images/Dashboard.png
+- Images/Dashboard_1.png
+- Images/Dashboard_2.png
 
 # ⚖️ License
 This project is licensed under the MIT License. See the LICENSE file for details.
